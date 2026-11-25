@@ -1,0 +1,42 @@
+name: Bug report
+description: Report a problem with TidyDrop on macOS or Windows
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS (Apple Silicon)
+        - macOS (Intel)
+        - Windows 11
+        - Windows 10
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: TidyDrop version
+      placeholder: "e.g. v1.0.0"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Tell us what you expected TidyDrop to do and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Downloaded ...
+        2. Enabled ...
+        3. Observed ...
+  - type: textarea
+    id: logs
+    attributes:
+      label: Activity log or error message (optional)
+      description: Paste any relevant lines from Settings -> Activity log (remove private filenames if needed).

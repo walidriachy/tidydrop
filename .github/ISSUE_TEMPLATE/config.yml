@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: TidyDrop Website & Interactive Preview
+    url: https://www.appx.ae/downloads/tidydrop
+    about: Preview TidyDrop and download the latest macOS & Windows installers.
+  - name: Security Vulnerability
+    url: https://github.com/walidriachy/tidydrop/security/advisories/new
+    about: Report security issues privately instead of opening a public issue.
